@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208601529656",
+    "project_id": "solemate-a075f",
+    "storage_bucket": "solemate-a075f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208601529656:android:87183b27cfcf4da070d5cd",
+        "android_client_info": {
+          "package_name": "com.alex.solemate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT5bl6NG14JJYip-bqoP6jaAdr61lUqgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
