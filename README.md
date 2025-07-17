@@ -14,7 +14,8 @@ SoleMate is a mobile app for sneaker collectors to manage, track, and analyze th
 - Git (version control)
 
 ## Getting Started
-1. Clone the repo
-2. Run `flutter pub get`
-3. Use an emulator or physical device to run `flutter run`
+1. [**Setup Guide**](./SETUP.md)
+2. Clone the repo
+3. Run `flutter pub get`
+4. Use an emulator or physical device to run `flutter run`
 
