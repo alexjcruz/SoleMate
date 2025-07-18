@@ -1,21 +1,40 @@
 {
   "project_info": {
-    "project_number": "208601529656",
-    "project_id": "solemate-a075f",
-    "storage_bucket": "solemate-a075f.firebasestorage.app"
+    "project_number": "542010277641",
+    "project_id": "solemate-31309",
+    "storage_bucket": "solemate-31309.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:208601529656:android:87183b27cfcf4da070d5cd",
+        "mobilesdk_app_id": "1:542010277641:android:fb4769467e2c3ebba79dd8",
         "android_client_info": {
-          "package_name": "com.alex.solemate"
+          "package_name": "com.example.solemate"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCT5bl6NG14JJYip-bqoP6jaAdr61lUqgA"
+          "current_key": "AIzaSyDf_BFSzlNOD6pu0Ek26W5Tf3JYrw_bmdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542010277641:android:c9511df44311caf3a79dd8",
+        "android_client_info": {
+          "package_name": "com.sole.mate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf_BFSzlNOD6pu0Ek26W5Tf3JYrw_bmdc"
         }
       ],
       "services": {
