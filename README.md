@@ -10,7 +10,6 @@ SoleMate is a mobile app for sneaker collectors to manage, track, and analyze th
 
 ## Tech Stack
 - Flutter (cross-platform framework)
-- Firebase (backend, auth, database)
 - Git (version control)
 
 ## Getting Started
