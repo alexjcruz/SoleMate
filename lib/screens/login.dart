@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'colors.dart';
+import '../colors.dart';
 import 'home.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -83,6 +83,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
 
+                // Sign In Button
                 SizedBox(height: 20),
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
@@ -95,7 +96,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => const Home()),
+                      MaterialPageRoute(builder: (context) => const HomeScreen()),
                     );
                   }, 
                   child: Text(
@@ -106,18 +107,6 @@ class _LoginScreenState extends State<LoginScreen> {
                     ),
                   ),
                 ),
-                
-                /*
-                // Dont have an account? Sign Up
-                SizedBox(height: 20),
-                Text('Don\'t have an account? Sign Up',
-                  style: TextStyle(
-                    
-                    fontSize: 16,
-                    color: AppColors.primary,
-                  ),
-                ),
-                */
               ],
             ),
           ),

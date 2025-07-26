@@ -1,0 +1,42 @@
+[
+    {
+        "sku": "AA7293-001",
+        "name": "Nike Air Max 90 OFF-WHITE",
+        "image": "assets/images/offwhite90.png",
+        "brand": "Nike",
+        "price": 160.0,
+        "current_value": 840,
+        "color": "Black",
+        "size": "9"
+    },
+    {
+        "sku": "555088-105",
+        "name": "Jordan 1 Retro High",
+        "image": "assets/images/mocha.png",
+        "brand": "Jordan",
+        "price": 170.00,
+        "current_value": 300,
+        "color": "Dark Mocha",
+        "size": "9"
+    },
+    {
+        "sku": "FU9007",
+        "name": "Yeezy Boost 350 V2",
+        "image": "assets/images/staticblack.png",
+        "brand": "Adidas",
+        "price": 220.00,
+        "current_value": 475,
+        "color": "Static Black",
+        "size": "9"
+    },
+    {   
+        "sku": "FV4921-600",
+        "name": "Nike Kobe 6 Protro",
+        "image": "assets/images/reverse_grinch.png",
+        "brand": "Nike",
+        "price": 190.00,
+        "current_value": 350,
+        "color": "Reverse Grinch",
+        "size": "9"
+    }
+]

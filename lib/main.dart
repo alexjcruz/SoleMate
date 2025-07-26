@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'firebase_options.dart'; 
-import 'package:firebase_core/firebase_core.dart';
-import 'screens/login.dart'; 
+import 'package:solemate/screens/login.dart';
+import 'package:solemate/screens/home.dart';
+import 'package:solemate/screens/portfolio.dart';
+import 'package:solemate/screens/settings.dart';
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+void main() {
   runApp(const SoleMateApp());
 }
 
@@ -15,13 +14,14 @@ class SoleMateApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'SoleMate',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
-        useMaterial3: true,
-      ),
-      home: const LoginScreen(),
+      initialRoute: '/login',
+      routes: {
+        '/login': (context) => const LoginScreen(),
+        '/home': (context) => const HomeScreen(),
+        '/portfolio': (context) => const Portfolio(),
+        '/settings': (context) => const Settings(),
+      },
     );
   }
 }
