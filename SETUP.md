@@ -46,7 +46,7 @@
     sudo gem install cocoapods
     ```
 
-# Firebase Setup
+# Firebase Setup (Not needed for Final Deliverable Submission)
 1. Go to [Firebase Console](https://console.firebase.google.com)
 2. Create a project named `SoleMate`
 3. Add both iOS and Android apps to the project
