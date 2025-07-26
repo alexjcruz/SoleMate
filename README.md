@@ -3,10 +3,8 @@
 SoleMate is a mobile app for sneaker collectors to manage, track, and analyze the value of their sneaker portfolio.
 
 ## Features
-- Add sneakers manually or via barcode scan
-- Real-time market value insights
+- Add sneakers manually
 - Profit/loss tracking
-- Dark mode support
 
 ## Tech Stack
 - Flutter (cross-platform framework)
